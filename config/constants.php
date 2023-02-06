@@ -10,7 +10,7 @@
     define('DB_PASSWORD', '');
     define('DB_NAME', 'restaurant');
     
-    $conn = mysqli_connect('localhost', 'root', '12345678') ; //Database Connection
+    $conn = mysqli_connect('localhost', 'root', '') ; //Database Connection
     $db_select = mysqli_select_db($conn, 'restaurant') ; //SElecting Database
 
 

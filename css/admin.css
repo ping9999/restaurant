@@ -15,6 +15,10 @@
     width: 80%;
     margin: 0 auto;
 }
+.text-center a {
+    text-decoration: none;
+  
+}
 
 .text-center{
     text-align: center;
@@ -30,8 +34,13 @@
 }
 .tbl-30{
     width: 30%;
+    margin: auto;
 }
-
+textarea, input[type="text"], input[type="number"]{
+    width: 100%;
+    padding: 5px;
+    /* height: 28px; */
+}
 table tr th{
     border-bottom: 1px solid black;
     padding: 1%;
@@ -39,7 +48,7 @@ table tr th{
 }
 
 table tr td{
-    padding: 1%;
+    padding: 5% 0;
 }
 
 .btn-primary{
@@ -55,8 +64,10 @@ table tr td{
 
 .btn-secondary{
     background-color: #7bed9f;
-    padding: 1%;
+    padding: 11%;
     color: black;
+    width: 144px;
+    border: none;
     text-decoration: none;
     font-weight: bold;
 }
@@ -74,7 +85,12 @@ table tr td{
 .btn-danger:hover{
     background-color: #ff4757;
 }
-
+.btn-secondary,
+.btn-danger,
+.btn-primary {
+    padding: 2%;
+    border-radius:12px ;
+}
 .success{
     color: #2ed573;
 }

@@ -35,12 +35,12 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Update Food</h1>
+        <h1 class="text-center">Update Food</h1>
         <br><br>
 
-        <form action="" method="POST" enctype="multipart/form-data">
+        <form action="" method="POST" enctype="multipart/form-data" >
         
-        <table class="tbl-30">
+        <table class="tbl-30" >
 
             <tr>
                 <td>Title: </td>
@@ -76,7 +76,7 @@
                         {
                             //Image Available
                             ?>
-                            <img src="<?php echo SITEURL; ?>images/food/<?php echo $current_image; ?>" width="150px">
+                            <img src="<?php echo SITEURL; ?>images/food/<?php echo $current_image; ?>" width="100%">
                             <?php
                         }
                     ?>

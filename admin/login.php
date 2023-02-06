@@ -40,7 +40,7 @@
             </form>
             <!-- Login Form Ends HEre -->
 
-            <p class="text-center">Created By - <a href="www.vijaythapa.com">CSE485</a></p>
+            <p class="text-center">Created By - <a href="#">Nắng</a></p>
         </div>
 
     </body>
