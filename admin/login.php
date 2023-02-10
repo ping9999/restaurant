@@ -30,12 +30,12 @@
             <!-- Login Form Starts HEre -->
             <form action="" method="POST" class="text-center">
             Username: <br>
-            <input type="text" name="username" placeholder="Enter Username"><br><br>
+            <input type="text" name="username" placeholder="Enter Username" style="border-radius:10px; border: none; text-align:center;width:80%;"><br><br>
 
             Password: <br>
-            <input type="password" name="password" placeholder="Enter Password"><br><br>
+            <input type="password" name="password" placeholder="Enter Password" style="border-radius:10px ; border: none;text-align:center;width:80%;padding:5px;"><br><br>
 
-            <input type="submit" name="submit" value="Login" class="btn-primary " style="border: none;">
+            <input type="submit" name="submit" value="Login" class="btn-primary " style="border: none;text-align:center;width:80%;padding:5px;">
             <br><br>
             </form>
             <!-- Login Form Ends HEre -->

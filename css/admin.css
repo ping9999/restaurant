@@ -142,8 +142,10 @@ table tr td{
 
 /* CSS for Login */
 .login{
-    border: 1px solid grey;
+    border: none;
+    border-radius: 10px;
     width: 20%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: 10% auto;
     padding: 2%;
 }
